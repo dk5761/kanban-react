@@ -1,0 +1,26 @@
+.lpage-container {
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    /* background: url("../../assets/background.jpg"); */
+    background-repeat: no-repeat;
+    background-image: url("../../assets/background.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.lpage-container>h1 {
+    font-family: "SN-bold";
+    font-size: 3rem;
+}
+
+.lpage-container>h3 {
+    font-family: "SN-light";
+    font-size: 1.3rem;
+}

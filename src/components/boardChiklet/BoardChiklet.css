@@ -1,0 +1,28 @@
+.board-container {
+    width: 32%;
+    margin-right: 3%;
+    max-width: 250px;
+    min-width: 220px;
+    margin-bottom: 20px;
+}
+
+.boardchiklet {
+    border: 1px solid black;
+    border-radius: 12px;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding-left: 6px;
+    padding-bottom: 6px;
+    background-repeat: no-repeat center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.boardchiklet>.title {
+    font-family: "SN-semibold";
+    font-size: 1.2rem;
+    color: white;
+}

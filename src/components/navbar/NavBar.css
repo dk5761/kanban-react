@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    height: 3rem;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+    z-index: 100;
+    align-items: center;
+    background-color: #292942;
+    padding: 0.3rem 0.6rem;
+}
+
+.navbar>.container {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
